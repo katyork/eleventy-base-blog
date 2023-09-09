@@ -4,21 +4,28 @@ eleventyNavigation:
   key: Contact
   order: 4
 ---
-Hello from contact page
+<div class="container">
+	<div class="row">
+		<div class="col-12 mx-auto">
+			<h2 class="text-center">Contact Form</h2>
+		</div>
+	</div>
+</div>
 
 <form name="contact" netlify>
-  <p>
-    <label>First Name <input type="text" name="first-name" /></label>
-  </p>
-  <p>
-    <label>Surname <input type="text" name="surname" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message <textarea name="message"></textarea>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+    <div class="form-group row">
+        <label>First Name <input class="form-control" type="text" name="first-name" /></label>
+    </div>
+    <div class="form-group row mt-3">
+        <label>Surname <input class="form-control" type="text" name="surname" /></label>
+    </div>
+    <div class="form-group row mt-3">
+        <label>Email <input class="form-control" type="email" name="email" /></label>
+    </div>
+    <div class="form-group row mt-3">
+        <label>Message <textarea class="form-control" name="message" rows=8></textarea>
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-lg btn-primary mt-3">Submit</button>
+    </div>
 </form>
