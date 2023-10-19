@@ -7,16 +7,16 @@ tags:
   - javascript
 ---
 
-<h1>Favourite Jazz Musicians / Bands</h1>
+The takeaway task from our first session on loops, arrays and objects was to create an array and then to create two functions - the first iterates over the array and prints each item to the console, the second adds another item to the list and prints the updated list to the console.
 
-For this task I wrote two functions - the first prints a list of favourite artists (an array) to the console using a for loop. The second takes an artist name as user input and adds it to the array.
+<h3>Favourite Jazz Musicians / Bands</h3>
 
 <form name="artistForm" action="" method="GET">
   Add name of artist to the list
   <br>
   <input type="text" name="inputbox" value="">
   <input type="button" name="button" value="Submit" onClick="addArtist(this.form)">
-</form>
+</form><br>
 
 Here is my code. See the console for output.
 
