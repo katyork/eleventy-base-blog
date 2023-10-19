@@ -1,7 +1,7 @@
 ---
 title: Functions and Control Flow Practical
 description:
-date: 2023-09-19
+date: 2023-09-26
 draft: true
 tags:
   - javascript
@@ -13,7 +13,7 @@ This week's practical session consisted of 3 tasks.
 The first task was to create a percentage calculator. Here is a link to my <a href="https://codepen.io/Katherine-York/pen/PoXdNPr">Codepen</a> for this task.
 
 <h3>Switch Statement</h3>
-We used a switch statement to output different messages depending on the drink selected.
+We used a switch statement to output different messages depending on the drink selected. See the console for output.
 
 <form name="inputForm" action="" method="GET">
   <h5>Drinks Order</h5>

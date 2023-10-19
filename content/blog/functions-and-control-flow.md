@@ -12,7 +12,7 @@ I wrote my first Javascript functions!
 
 The first task was to concatenate two strings (a first name and a last name) and output "My name is..." to the console log. I used template literals to construct the sentence.
 
-Here is my code. See the console log for output!
+Here is my code. See the console for output!
 
 ```js
 function sentence (name) {
