@@ -5,6 +5,18 @@ eleventyNavigation:
   order: 1
 numberOfLatestPostsToShow: 3
 ---
+
+Welcome to my blog! My name is Katherine York and this is a record of my journey towards becoming a web developer.
+<br><br>
+In October 2023 I completed a course in Web Design & Development with the Coder's Guild. Click <a href="">here</a> to see what I learned on this course.
+
+<br><br>
+Alternatively, click on any of the following to find relevant posts
+<br><br>
+- Javascript <br>
+- Git etc...<br>
+<br>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
