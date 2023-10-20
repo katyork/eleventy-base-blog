@@ -6,6 +6,4 @@ draft: true
 tags:
   - bootstrap
 ---
-This week I learned how to add Bootstrap to a web page.
-
-Band advertisement project (not yet completed)
+This week I learned how to add Bootstrap to a web page and use it to create a layout. Here is a <a href="">link</a> to the web page I created.

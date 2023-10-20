@@ -1,8 +1,8 @@
 ---
-title: Functions and Control Flow Practical
+title: Functions and Control Flow Part 2
 description:
 date: 2023-09-26
-draft: true
+draft: false
 tags:
   - javascript
 ---
